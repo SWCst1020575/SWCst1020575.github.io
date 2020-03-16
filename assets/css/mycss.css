@@ -1,0 +1,704 @@
+.mathmark{
+	font-size: 128px;
+    margin: -20px 0;
+}
+.comp-input>div {
+    display: inline-block;
+    vertical-align: middle;
+}
+.comp-input {
+    margin-bottom: 30px;
+	
+}
+.perinput{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92px;
+	font-size:30px;
+	width: 70px;
+}
+#data{
+	height: 60px;
+	font-size:30px;
+	width: 90%;
+}
+#designer{
+	font-size:20px;
+	margin-top:360px;
+	bottom:3px;
+}
+.answer_data>div{
+	font-size:40px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.answerword{
+	font-size:40px;
+}
+.calbotton{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+	color: #fff;
+    background-color: #58a0de;
+    border-color: #122b40;
+	cursor: pointer;
+
+}
+.calbotton:hover{
+	background-color: #3d73a2;
+}
+
+#sigma_n{
+	width:50px;
+	left:15px;
+	position:absolute;
+	text-align:center;
+}
+
+#sigma_mark{
+	
+	padding-top:100px;
+}
+
+#sigma_k{
+	width:50px;
+	position:absolute;
+	top:150px;
+	left:15px;
+	text-align:center;
+}
+
+.sigma_x{
+	font-size:26px;
+	text-align:right;
+	width:40px;
+	position:absolute;
+}
+#sigma_x4{
+
+	top:70px;
+}
+#sigma_x3{
+	left:240px;
+	top:70px;
+}
+#sigma_x2{
+	left:400px;
+	top:70px;
+}
+#sigma_x1{
+	left:560px;
+	top:70px;
+}
+#sigma_x0{
+	left:700px;
+	top:70px;
+}
+
+
+
+#sigma_cal{
+	top:90px;
+	left:15px;
+	position:relative;
+}
+
+.sig_img{
+	position:absolute;
+	width:94px;
+}
+
+#x4_img{
+	top:73px;
+	left:125px;
+}
+
+#x3_img{
+	top:73px;
+	left:285px;
+}
+#x2_img{
+	top:73px;
+	left:445px;
+}
+#x1_img{
+	top:85px;
+	left:605px;
+	width:72px;
+}
+
+#sigma_awnser{
+	position:relative;
+	top:75px;
+	left:40px;
+	font-size:60px;
+}
+
+.matrix_buttom{
+	
+	height: 35px;
+	width:100px;
+	text-align:center;
+	
+	float: left;
+	cursor: pointer;
+	
+	background-color:#00000017;
+}
+.matrix_buttom:hover{
+	
+	background-color:#00000047;
+}
+
+
+#matrix_2x2{
+	position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+	
+	
+}
+
+#matrix_3x3{
+	position: absolute;
+    top: 0.5em;
+    left: 7em;
+	
+	
+}
+#martrix_clsup{
+	position: absolute;
+    left: 0.5em;
+	display:none;
+}
+
+#martrix_clsdown{
+	position: absolute;
+    left: 7em;
+	display:none;
+	
+}
+
+
+
+.mathmark_matrix{
+	font-size: 128px;
+	position:absolute;
+	
+}
+
+#matrixmark2x2-1{
+	top:85px;
+	
+}
+#matrixmark2x2-2{
+	top:85px;
+	left:205px;
+}
+
+
+#matrixmark2x2_2-1{
+	top:305px;
+	
+}
+#matrixmark2x2_2-2{
+	top:305px;
+	left:205px;
+}
+
+#matrixmark2x2_ans-1{
+	top:475px;
+	
+}
+#matrixmark2x2_ans-2{
+	top:475px;
+	left:205px;
+}
+
+
+.matrix2x2_input{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92px;
+	font-size:30px;
+	width: 70px;
+	
+	position: absolute;
+    
+}
+.matrix2x2_ans{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92px;
+	font-size:30px;
+	width: 70px;
+	
+	position: absolute;
+    
+}
+#atrix2x2_ans{
+	display:none;
+}
+#matrix_dot{
+	display:none;
+}
+
+#matrix2x2_input1-1{
+	top: 60px;
+    left: 45px;
+}
+#matrix2x2_input1-2{
+	top: 60px;
+    left: 130px;
+}
+
+#matrix2x2_input1_2-1{
+	top: 280px;
+    left: 45px;
+}
+#matrix2x2_input1_2-2{
+	top: 280px;
+    left: 130px;
+}
+
+#matrix2x2_ans-1{
+	top: 450px;
+    left: 45px;
+}
+#matrix2x2_ans-2{
+	top: 450px;
+    left: 130px;
+}
+
+
+
+#matrix_2x2_dot{
+	position:absolute;
+	left:250px;
+	top:60px;
+}
+#matrix_2x2_self{
+	position:absolute;
+	left:250px;
+	top:110px;
+}
+#matrix_2x2_dotbuttom{
+	position:absolute;
+	left:70px;
+	top:185px;
+}
+
+#matrix_2x2_determinant_buttom{
+	position:absolute;
+	left:10px;
+	top:180px;
+}
+#matrix_2x2_exponentiation_buttom{
+	position:absolute;
+	left:120px;
+	top:180px;
+}
+#matrix_2x2_inverse_buttom{
+	position:absolute;
+	left:230px;
+	top:180px;
+}
+
+#matrix_2x2_determinant_ans{
+	font-size:50px;
+	position:absolute;
+	top:275px;
+	left:50px;
+	display:none;
+}
+
+#matrix_2x2_exponentiation_input{
+	width:40px;
+	position:absolute;
+	top:220px;
+	left:150px;
+}
+#matrix_self{
+	display:none;
+}
+#matrix_2x2_content{
+	display:none;
+}
+
+
+.mathmark_matrix_3x3{
+	font-size: 168px;
+	position:absolute;
+	
+}
+#matrixmark3x3-1{
+	top:95px;
+}
+#matrixmark3x3-2{
+	top:95px;
+	left: 300px;
+}
+
+#matrixmark3x3_2-1{
+	top:330px;
+}
+#matrixmark3x3_2-2{
+	top:330px;
+	left: 300px;
+}
+
+#matrixmark3x3_ans-1{
+	top:530px;
+}
+#matrixmark3x3_ans-2{
+	top:530px;
+	left: 300px;
+}
+
+
+.matrix3x3_input{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+	font-size:30px;
+	width: 70px;
+	
+	position: absolute;
+}
+
+.matrix3x3_ans{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 130px;
+	font-size:30px;
+	width: 70px;
+	
+	position: absolute;
+    
+}
+
+#matrix_dot_3x3{
+	display:none;
+}
+
+#matrix3x3_input1-1{
+	top: 55px;
+    left: 50px;
+}
+#matrix3x3_input1-2{
+	top: 55px;
+    left: 140px;
+}
+#matrix3x3_input1-3{
+	top: 55px;
+    left: 230px;
+}
+
+#matrix3x3_input1_2-1{
+	top: 290px;
+    left: 50px;
+}
+#matrix3x3_input1_2-2{
+	top: 290px;
+    left: 140px;
+}
+#matrix3x3_input1_2-3{
+	top: 290px;
+    left: 230px;
+}
+
+#matrix3x3_ans-1{
+	top: 490px;
+    left: 50px;
+}
+#matrix3x3_ans-2{
+	top: 490px;
+    left: 140px;
+}
+#matrix3x3_ans-3{
+	top: 490px;
+    left: 230px;
+}
+
+
+#matrix_3x3_dot{
+	position:absolute;
+	left:360px;
+	top:70px;
+}
+#matrix_3x3_self{
+	position:absolute;
+	left:360px;
+	top:120px;
+}
+
+#matrix_3x3_dotbuttom{
+	position:absolute;
+	left:125px;
+	top:220px;
+}
+
+#atrix3x3_ans{
+	display:none;
+}
+
+
+#matrix_3x3_determinant_buttom{
+	position:absolute;
+	left:10px;
+	top:200px;
+}
+#matrix_3x3_exponentiation_buttom{
+	position:absolute;
+	left:120px;
+	top:200px;
+}
+#matrix_3x3_inverse_buttom{
+	position:absolute;
+	left:230px;
+	top:200px;
+}
+
+#matrix_3x3_determinant_ans{
+	font-size:50px;
+	position:absolute;
+	top:295px;
+	left:50px;
+	
+}
+
+#matrix_3x3_exponentiation_input{
+	width:40px;
+	position:absolute;
+	top:240px;
+	left:150px;
+}
+#matrix_self_3x3{
+	display:none;
+}
+#matrix_3x3_content{
+	display:none;
+}
+
+
+@media screen and (max-width: 1300px) {
+	#matrix_2x2{
+		position: absolute;
+		top: 0.5em;
+		left: 0.5em;
+		
+		
+	}
+
+	#matrix_3x3{
+		position: absolute;
+		top: 0.5em;
+		left: 8em;
+		
+		
+	}
+	#martrix_clsup{
+		position: absolute;
+		top:3.5em;
+		left: 0.5em
+
+	}
+
+	#martrix_clsdown{
+		position: absolute;
+		top:3.5em;
+		left: 8em;
+		
+		
+	}
+}
+
+
+@media screen and (max-width: 620px) {
+	
+	
+	#content{
+		padding-bottom: 500px;
+	}
+	#designer{
+
+		position:absolute;
+
+	}
+	#sigma_x4{
+
+		top:70px;
+	}
+	#sigma_x3{
+		left:218px;
+		top:70px;
+	}
+	#sigma_x2{
+		left:79px;
+		top:140px;
+	}
+	#sigma_x1{
+		left:218px;
+		top:140px;
+	}
+	#sigma_x0{
+		left:79px;
+		top:210px;
+	}
+		
+	
+	#x4_img{
+		top:73px;
+		left:120px;
+	}
+
+	#x3_img{
+		top:73px;
+		left:260px;
+	}
+	#x2_img{
+		left:120px;
+		top:140px;
+	}
+	#x1_img{
+		top:153px;
+		left:260px;
+		width:72px;
+	}
+	
+	
+
+	
+	
+	
+	#matrix_3x3_dot{
+		position:absolute;
+		left:60px;
+		top:200px;
+	}
+	#matrix_3x3_self{
+		position:absolute;
+		left:190px;
+		top:200px;
+	}
+		
+		
+	#matrixmark3x3_2-1{
+		top:375px;
+	}
+	#matrixmark3x3_2-2{
+		top:375px;
+		left:300px;
+	}
+
+	#matrixmark3x3_ans-1{
+		top:575px;
+	}
+	#matrixmark3x3_ans-2{
+		top:575px;
+		left:300px;
+	}	
+	
+	#matrix_3x3_dotbuttom{
+		position:absolute;
+		left:125px;
+		top:265px;
+	}
+		
+	#matrix3x3_input1_2-1{
+		top: 335px;
+		left: 50px;
+	}
+	#matrix3x3_input1_2-2{
+		top: 335px;
+		left: 140px;
+	}
+	#matrix3x3_input1_2-3{
+		top: 335px;
+		left: 230px;
+	}
+
+	#matrix3x3_ans-1{
+		top: 535px;
+		left: 50px;
+	}
+	#matrix3x3_ans-2{
+		top: 535px;
+		left: 140px;
+	}
+	#matrix3x3_ans-3{
+		top: 535px;
+		left: 230px;
+	}
+	
+		
+	#matrix_3x3_determinant_buttom{
+		position:absolute;
+		left:10px;
+		top:250px;
+	}
+	#matrix_3x3_exponentiation_buttom{
+		position:absolute;
+		left:120px;
+		top:250px;
+	}
+	#matrix_3x3_inverse_buttom{
+		position:absolute;
+		left:230px;
+		top:250px;
+	}
+
+	#matrix_3x3_determinant_ans{
+		font-size:50px;
+		position:absolute;
+		top:345px;
+		left:50px;
+		display:none;
+	}
+
+	#matrix_3x3_exponentiation_input{
+		width:40px;
+		position:absolute;
+		top:290px;
+		left:150px;
+	}
+}
+
+@media screen and (min-width: 620px) and (max-width:1180px) {
+	
+	#content{
+		padding-bottom: 500px;
+	}
+	#designer{
+		
+		margin-top:215px;
+		
+	}
+	#sigma_x1{
+		left:79px;
+		top:140px;
+	}
+	#sigma_x0{
+		left:240px;
+		top:140px;
+	}
+	
+	
+	#x1_img{
+		top:153px;
+		left:125px;
+		width:75px;
+	}
+}

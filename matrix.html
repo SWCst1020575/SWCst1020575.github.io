@@ -1,0 +1,221 @@
+<!DOCTYPE HTML>
+<!--
+	Striped by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>高中數學計算機 – Calculator</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/mycss.css" />
+		<style>@media screen{#content{padding-bottom: 620px;}}</style>
+		<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML" type="text/javascript"></script>
+	</head>
+	<body class="is-preload">
+
+		<!-- Content -->
+			
+			<div id="content">
+				<div class="matrix_buttom" id="matrix_2x2" onclick="martrix2x2()">二階方陣</div>
+				<div class="matrix_buttom" id="matrix_3x3" onclick="martrix3x3()">三階方陣</div>
+				<div class="matrix_buttom" id="martrix_clsup" onclick="martrix_clsup()">清空上矩陣</div>
+				<div class="matrix_buttom" id="martrix_clsdown" onclick="martrix_clsdown()">清空下矩陣</div>
+				
+				<div class="inner" id="matrix_content">
+					<article class="box post post-excerpt">
+					
+						<div id="matrix_2x2_content">
+							<div class="mathmark_matrix" id="matrixmark2x2-1">(</div>
+							<div class="comp-input-fields">
+								<div class="matrix2x2_input" id="matrix2x2_input1-1">
+									<input type="text" id="2x2_11">
+									<input type="text" id="2x2_21">
+								</div>
+								<div class="matrix2x2_input" id="matrix2x2_input1-2">
+									<input type="text" id="2x2_12">
+									<input type="text" id="2x2_22">
+								</div>
+							</div>
+							<div class="mathmark_matrix" id="matrixmark2x2-2">)</div>
+							<div class="matrix_buttom" id="matrix_2x2_dot" onclick="dot_2x2()">矩陣相乘</div>
+							<div class="matrix_buttom" id="matrix_2x2_self" onclick="matrixself()">自運算</div>
+							
+							
+							
+							<div id="matrix_dot">
+								<div class="matrix_buttom" id="matrix_2x2_dotbuttom" onclick="dot2x2()">X</div>
+								
+								<div class="mathmark_matrix" id="matrixmark2x2_2-1">(</div>
+								<div class="comp-input-fields">
+									<div class="matrix2x2_input" id="matrix2x2_input1_2-1">
+										<input type="text" id="2x2_2_11">
+										<input type="text" id="2x2_2_21">
+									</div>
+									<div class="matrix2x2_input" id="matrix2x2_input1_2-2">
+										<input type="text" id="2x2_2_12">
+										<input type="text" id="2x2_2_22">
+									</div>
+								</div>
+								<div class="mathmark_matrix" id="matrixmark2x2_2-2">)</div>
+							</div>	
+							
+							<div id="atrix2x2_ans">
+								<div class="mathmark_matrix" id="matrixmark2x2_ans-1">(</div>
+								<div class="comp-input-fields">
+									<div class="matrix2x2_ans" id="matrix2x2_ans-1">
+										<input type="text" id="2x2_ans_11" disabled="disabled">
+										<input type="text" id="2x2_ans_21" disabled="disabled">
+									</div>
+									<div class="matrix2x2_ans" id="matrix2x2_ans-2">
+										<input type="text" id="2x2_ans_12" disabled="disabled">
+										<input type="text" id="2x2_ans_22" disabled="disabled">
+									</div>
+								</div>
+								<div class="mathmark_matrix" id="matrixmark2x2_ans-2">)</div>
+							</div>
+							
+							
+							<div id="matrix_self">
+								<div class="matrix_buttom" id="matrix_2x2_determinant_buttom" onclick="determinant()">行列式</div>
+								<div class="matrix_buttom" id="matrix_2x2_exponentiation_buttom" onclick="exponentiation()">求冪</div>
+								<input type="text" id="matrix_2x2_exponentiation_input">
+								<div class="matrix_buttom" id="matrix_2x2_inverse_buttom" onclick="inverse()">反矩陣</div>
+								
+								<div id="matrix_2x2_determinant_ans"></div>
+							</div>
+						</div>
+						
+						
+						
+						
+						
+						
+						
+						<div id="matrix_3x3_content">
+							<div class="mathmark_matrix_3x3" id="matrixmark3x3-1">(</div>
+							<div class="comp-input-fields">
+								<div class="matrix3x3_input" id="matrix3x3_input1-1">
+									<input type="text" id="3x3_11">
+									<input type="text" id="3x3_21">
+									<input type="text" id="3x3_31">
+								</div>
+								<div class="matrix3x3_input" id="matrix3x3_input1-2">
+									<input type="text" id="3x3_12">
+									<input type="text" id="3x3_22">
+									<input type="text" id="3x3_32">
+								</div>
+								<div class="matrix3x3_input" id="matrix3x3_input1-3">
+									<input type="text" id="3x3_13">
+									<input type="text" id="3x3_23">
+									<input type="text" id="3x3_33">
+								</div>
+							</div>
+							<div class="mathmark_matrix_3x3" id="matrixmark3x3-2">)</div>
+							<div class="matrix_buttom" id="matrix_3x3_dot" onclick="dot_3x3()">矩陣相乘</div>
+							<div class="matrix_buttom" id="matrix_3x3_self" onclick="matrixself3x3()">自運算</div>
+							
+							
+							 
+							<div id="matrix_dot_3x3">
+								<div class="matrix_buttom" id="matrix_3x3_dotbuttom" onclick="dot3x3()">X</div>
+								
+								<div class="mathmark_matrix_3x3" id="matrixmark3x3_2-1">(</div>
+								<div class="comp-input-fields">
+									<div class="matrix3x3_input" id="matrix3x3_input1_2-1">
+										<input type="text" id="3x3_2_11">
+										<input type="text" id="3x3_2_21">
+										<input type="text" id="3x3_2_31">
+									</div>
+									<div class="matrix3x3_input" id="matrix3x3_input1_2-2">
+										<input type="text" id="3x3_2_12">
+										<input type="text" id="3x3_2_22">
+										<input type="text" id="3x3_2_32">
+									</div>
+									<div class="matrix3x3_input" id="matrix3x3_input1_2-3">
+										<input type="text" id="3x3_2_13">
+										<input type="text" id="3x3_2_23">
+										<input type="text" id="3x3_2_33">
+									</div>
+								</div>
+								<div class="mathmark_matrix_3x3" id="matrixmark3x3_2-2">)</div>
+							</div>	 
+							
+							<div id="atrix3x3_ans">
+								<div class="mathmark_matrix_3x3" id="matrixmark3x3_ans-1">(</div>
+								<div class="comp-input-fields">
+									<div class="matrix3x3_ans" id="matrix3x3_ans-1">
+										<input type="text" id="3x3_ans_11" disabled="disabled">
+										<input type="text" id="3x3_ans_21" disabled="disabled">
+										<input type="text" id="3x3_ans_31" disabled="disabled">
+									</div>
+									<div class="matrix3x3_ans" id="matrix3x3_ans-2">
+										<input type="text" id="3x3_ans_12" disabled="disabled">
+										<input type="text" id="3x3_ans_22" disabled="disabled">
+										<input type="text" id="3x3_ans_32" disabled="disabled">
+									</div>
+									<div class="matrix3x3_ans" id="matrix3x3_ans-3">
+										<input type="text" id="3x3_ans_13" disabled="disabled">
+										<input type="text" id="3x3_ans_23" disabled="disabled">
+										<input type="text" id="3x3_ans_33" disabled="disabled">
+									</div>
+								</div>
+								<div class="mathmark_matrix_3x3" id="matrixmark3x3_ans-2">)</div>
+							</div> 
+							
+							
+							<div id="matrix_self_3x3">
+								<div class="matrix_buttom" id="matrix_3x3_determinant_buttom" onclick="determinant_3x3()">行列式</div>
+								<div class="matrix_buttom" id="matrix_3x3_exponentiation_buttom" onclick="exponentiation_3x3()">求冪</div>
+								<input type="text" id="matrix_3x3_exponentiation_input">
+								<div class="matrix_buttom" id="matrix_3x3_inverse_buttom" onclick="inverse_3x3()">反矩陣</div>
+								
+								<div id="matrix_3x3_determinant_ans"></div>
+							</div>
+						</div>
+						
+						
+						
+						
+					</article>
+				</div>
+			</div>
+
+		<!-- Sidebar -->
+			<div id="sidebar">
+
+				<!-- Logo -->
+					<h1 id="logo"><a href="#">Calculator</a></h1>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="permutation_combination.html">排列組合</a></li>
+							<li><a href="data_analysis.html">數據分析</a></li>
+							<li><a href="summation.html">次方和</a></li>
+							<li class="current"><a href="#">矩陣</a></li>
+							<li><a href="vector.html">向量</a></li>
+							<li><a href="equation.html">二、三元一次方程式</a></li>
+							<li><a href="equation2.html">一元二次方程式</a></li>
+						</ul>
+					</nav>
+					<div id="designer">Designed by SU, WEI-CHUNG</div>
+				
+
+				
+					
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="assets/mathjs/matrix.js"></script>
+
+	</body>
+</html>
