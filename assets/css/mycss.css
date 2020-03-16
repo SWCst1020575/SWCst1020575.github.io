@@ -178,12 +178,14 @@
 	position: absolute;
     left: 0.5em;
 	display:none;
+	z-index: 10;
 }
 
 #martrix_clsdown{
 	position: absolute;
     left: 7em;
 	display:none;
+	z-index: 10;
 	
 }
 
