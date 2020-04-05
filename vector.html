@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Striped by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>高中數學計算機 – Calculator</title>
@@ -11,14 +7,126 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/mycss.css" />
+		<link rel="stylesheet" href="assets/css/mycss2.css" />
 		<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML" type="text/javascript"></script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Content -->
 			<div id="content">
+				<div class="vector_buttom" id="vector_buttom2" onclick="vector2x2()">二維向量</div>
+				<div class="vector_buttom" id="vector_buttom3" onclick="vector3x3()">三維向量</div>
+				
 				<div class="inner">
-
+					<article class="box post post-excerpt">
+					
+						<div id="vector_2_content">
+							<div class="mathmark_vector" id="vectormark2-1">(</div>
+							<div class="comp-input-fields">
+								<div class="vector2_input" id="vector2_input1-1">
+									<input type="text" id="vector2_1-1">
+								</div>
+								<div class="mathmark_vector" id="vectormark2-3">,</div>
+								<div class="vector2_input" id="vector2_input1-2">
+									<input type="text" id="vector2_1-2">
+								</div>
+							</div>
+							<div class="mathmark_vector" id="vectormark2-2">)</div>
+							
+							<div class="vector_buttom" id="vector_2_dotbuttom" onclick="dot2()">●</div>
+							<div class="vector_buttom" id="vector_2_absbuttom" onclick="abs2()">取絕對值</div>
+							
+							
+							<div id="vector_dot">
+								
+								<div class="mathmark_vector" id="vectormark2_2-1">(</div>
+								<div class="comp-input-fields">
+									<div class="vector2_input" id="vector2_input1_2-1">
+										<input type="text" id="vector2_2-1">
+									</div>
+									<div class="mathmark_vector" id="vectormark2_2-3">,</div>
+									<div class="vector2_input" id="vector2_input1_2-2">
+										<input type="text" id="vector2_2-2">
+									</div>
+								</div>
+								<div class="mathmark_vector" id="vectormark2_2-2">)</div>
+								
+							</div>
+							
+							
+							<div id="vector2_ans"></div>
+						</div>
+						
+						<!--   -----------------------------------------------------------------------------------------------   -->
+						
+						<div id="vector_3_content">
+							<div class="mathmark_vector" id="vectormark3-1">(</div>
+							<div class="comp-input-fields">
+								<div class="vector2_input" id="vector3_input1-1">
+									<input type="text" id="vector3_1-1">
+								</div>
+								<div class="mathmark_vector" id="vectormark3-3">,</div>
+								<div class="vector2_input" id="vector3_input1-2">
+									<input type="text" id="vector3_1-2">
+								</div>
+								<div class="mathmark_vector" id="vectormark3-4">,</div>
+								<div class="vector2_input" id="vector3_input1-3">
+									<input type="text" id="vector3_1-3">
+								</div>
+							</div>
+							<div class="mathmark_vector" id="vectormark3-2">)</div>
+							
+							<div class="vector_buttom" id="vector_3_dotbuttom" onclick="dot3()">●</div>
+							<div class="vector_buttom" id="vector_3_crossbuttom" onclick="cross3()">X</div>
+							<div class="vector_buttom" id="vector_3_absbuttom" onclick="abs3()">取絕對值</div>
+							
+							
+							<div id="vector3_dot">
+								
+								<div class="mathmark_vector" id="vectormark3_2-1">(</div>
+								<div class="comp-input-fields">
+									<div class="vector2_input" id="vector3_input1_2-1">
+										<input type="text" id="vector3_2-1">
+									</div>
+									<div class="mathmark_vector" id="vectormark3_2-3">,</div>
+									<div class="vector2_input" id="vector3_input1_2-2">
+										<input type="text" id="vector3_2-2">
+									</div>
+									<div class="mathmark_vector" id="vectormark3_2-4">,</div>
+									<div class="vector2_input" id="vector3_input1_2-3">
+										<input type="text" id="vector3_2-3">
+									</div>
+								</div>
+								<div class="mathmark_vector" id="vectormark3_2-2">)</div>
+								
+							</div>
+							
+							<div id="vector3_crossans">
+								
+								<div class="mathmark_vector" id="vectormark3_ans-1">(</div>
+								<div class="comp-input-fields">
+									<div class="vector2_input" id="vector3_input1_ans-1">
+										<input type="text" id="vector3_ans-1">
+									</div>
+									<div class="mathmark_vector" id="vectormark3_ans-3">,</div>
+									<div class="vector2_input" id="vector3_input1_ans-2">
+										<input type="text" id="vector3_ans-2">
+									</div>
+									<div class="mathmark_vector" id="vectormark3_ans-4">,</div>
+									<div class="vector2_input" id="vector3_input1_ans-3">
+										<input type="text" id="vector3_ans-3">
+									</div>
+								</div>
+								<div class="mathmark_vector" id="vectormark3_ans-2">)</div>
+								
+							</div>
+							
+							
+							<div id="vector3_ans"></div>
+						</div>
+						
+						
+					</article>
 				</div>
 			</div>
 
@@ -54,6 +162,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/mathjs/vector.js"></script>
 	</body>
 </html>

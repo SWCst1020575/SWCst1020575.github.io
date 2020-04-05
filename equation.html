@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Striped by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>高中數學計算機 – Calculator</title>
@@ -11,14 +7,83 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/mycss.css" />
+		<link rel="stylesheet" href="assets/css/mycss2.css" />
 		<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML" type="text/javascript"></script>
 	</head>
 	<body class="is-preload">
 
 		<!-- Content -->
 			<div id="content">
+				<div class="equation_buttom" id="equation_buttom2" onclick="equation2()">二元一次</div>
+				<div class="equation_buttom" id="equation_buttom3" onclick="equation3()">三元一次</div>
 				<div class="inner">
-
+						<article class="box post post-excerpt">
+							
+							<div id="equation2_content">
+								
+								
+								<div class="equation_input" id="equation2_input1-1">
+									<input type="text" id="equation2_1-1">
+									<input type="text" id="equation2_2-1">
+								</div>
+								<div class="mathmark_equation" id="equationmark_x-1">x +</div>
+								<div class="mathmark_equation" id="equationmark_x-2">x +</div>
+								<div class="equation_input" id="equation2_input1-2">
+									<input type="text" id="equation2_1-2">
+									<input type="text" id="equation2_2-2">
+								</div>
+								<div class="mathmark_equation" id="equationmark_y-1">y =</div>
+								<div class="mathmark_equation" id="equationmark_y-2">y =</div>
+								<div class="equation_input" id="equation2_input1-3">
+									<input type="text" id="equation2_1-3">
+									<input type="text" id="equation2_2-3">
+								</div>
+								
+							
+							</div>
+							
+							
+							<div id="equation3_content">
+								
+								
+								<div class="equation_input" id="equation3_input1-1">
+									<input type="text" id="equation3_1-1">
+									<input type="text" id="equation3_2-1">
+									<input type="text" id="equation3_3-1">
+								</div>
+								<div class="mathmark_equation" id="equationmark2_x-1">x +</div>
+								<div class="mathmark_equation" id="equationmark2_x-2">x +</div>
+								<div class="mathmark_equation" id="equationmark2_x-3">x +</div>
+								<div class="equation_input" id="equation3_input1-2">
+									<input type="text" id="equation3_1-2">
+									<input type="text" id="equation3_2-2">
+									<input type="text" id="equation3_3-2">
+								</div>
+								<div class="mathmark_equation" id="equationmark2_y-1">y +</div>
+								<div class="mathmark_equation" id="equationmark2_y-2">y +</div>
+								<div class="mathmark_equation" id="equationmark2_y-3">y +</div>
+								<div class="equation_input" id="equation3_input1-3">
+									<input type="text" id="equation3_1-3">
+									<input type="text" id="equation3_2-3">
+									<input type="text" id="equation3_3-3">
+								</div>
+								<div class="mathmark_equation" id="equationmark2_z-1">z =</div>
+								<div class="mathmark_equation" id="equationmark2_z-2">z =</div>
+								<div class="mathmark_equation" id="equationmark2_z-3">z =</div>
+								<div class="equation_input" id="equation3_input1-4">
+									<input type="text" id="equation3_1-4">
+									<input type="text" id="equation3_2-4">
+									<input type="text" id="equation3_3-4">
+								</div>
+								
+							
+							</div>
+							
+							
+							
+							<div class="equation_buttom" id="equation_cal" onclick="equation_cal()">計算</div>
+							<div id="equation_ans"></div>
+						</article>
 				</div>
 			</div>
 
@@ -54,6 +119,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/mathjs/equation.js"></script>
 
 	</body>
 </html>

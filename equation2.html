@@ -1,9 +1,5 @@
 <!DOCTYPE HTML>
-<!--
-	Striped by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
 	<head>
 		<title>高中數學計算機 – Calculator</title>
@@ -11,6 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/mycss.css" />
+		<link rel="stylesheet" href="assets/css/mycss2.css" />
 		<script async="" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_CHTML" type="text/javascript"></script>
 	</head>
 	<body class="is-preload">
@@ -18,7 +15,16 @@
 		<!-- Content -->
 			<div id="content">
 				<div class="inner">
-
+					<div id="eq">
+						<input type="text" class="eq_input" id="eq_1">
+						<div class="eq_w" id="eq_x2">$$ x^2 + $$</div>
+						<input type="text" class="eq_input" id="eq_2">
+						<div class="eq_w" id="eq_x">$$ x + $$</div>
+						<input type="text" class="eq_input" id="eq_3">
+						<div class="eq_w" id="eq_">$$ = 0 $$</div>
+					</div>
+					<div class="equation_buttom" id="eq_cal" onclick="eq_cal()">計算</div>
+					<div id="eq_ans"></div>
 				</div>
 			</div>
 
@@ -54,6 +60,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/mathjs/equation2.js"></script>
 	</body>
 </html>

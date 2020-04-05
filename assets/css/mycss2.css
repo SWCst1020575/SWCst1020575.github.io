@@ -1,0 +1,700 @@
+
+.vector_buttom{
+	
+	height: 35px;
+	width:100px;
+	text-align:center;
+	
+	float: left;
+	cursor: pointer;
+	
+	background-color:#00000017;
+}
+.vector_buttom:hover{
+	
+	background-color:#00000047;
+}
+
+
+#vector_buttom2{
+	position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+	
+	
+}
+
+#vector_buttom3{
+	position: absolute;
+    top: 0.5em;
+    left: 7em;
+	
+	
+}
+
+.mathmark_vector{
+	font-size: 58px;
+	position:absolute;
+	
+}
+#vectormark2-1{
+	top:60px;
+	
+}
+#vectormark2-2{
+	top:60px;
+	left:205px;
+}
+#vectormark2-3{
+	top:60px;
+	left:105px;
+}
+
+#vectormark2_2-1{
+	top:200px;
+	
+}
+#vectormark2_2-2{
+	top:200px;
+	left:205px;
+}
+#vectormark2_2-3{
+	top:200px;
+	left:105px;
+}
+
+
+
+
+#vector_2_dotbuttom{
+	position:absolute;
+	left:0px;
+	top:130px;
+}
+#vector_2_absbuttom{
+	position:absolute;
+	left:120px;
+	top:130px;
+}
+
+
+#vector_3_dotbuttom{
+	position:absolute;
+	left:0px;
+	top:130px;
+}
+#vector_3_crossbuttom{
+	position:absolute;
+	left:120px;
+	top:130px;
+}
+#vector_3_absbuttom{
+	position:absolute;
+	left:240px;
+	top:130px;
+}
+
+.vector2_input{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92px;
+	font-size:30px;
+	width: 70px;
+	
+	position: absolute;
+    
+}
+.vector2_ans{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92px;
+	font-size:30px;
+	width: 70px;
+	
+	position: absolute;
+    
+}
+
+#vector2_input1-1{
+	top: 60px;
+    left: 25px;
+}
+#vector2_input1-2{
+	top: 60px;
+    left: 130px;
+}
+
+
+#vector2_input1_2-1{
+	top: 200px;
+    left: 25px;
+}
+#vector2_input1_2-2{
+	top: 200px;
+    left: 130px;
+}
+
+#vector2_ans{
+	font-size: 60px;
+    top: 270px;
+    position: absolute;
+}
+
+#vector_dot{
+	display:none;
+}
+
+#vector_2_content{
+	display:none;
+}
+#vector_3_content{
+	display:none;
+}
+
+
+
+
+
+
+#vectormark3-1{
+	top:60px;
+	
+}
+#vectormark3-2{
+	top:60px;
+	left:315px;
+}
+#vectormark3-3{
+	top:60px;
+	left:105px;
+}
+#vectormark3-4{
+	top:60px;
+	left:210px;
+}
+
+
+
+#vector3_input1-1{
+	top: 60px;
+    left: 25px;
+}
+#vector3_input1-2{
+	top: 60px;
+    left: 130px;
+}
+#vector3_input1-3{
+	top: 60px;
+    left: 235px;
+}
+
+
+
+#vectormark3_2-1{
+	top:200px;
+	
+}
+#vectormark3_2-2{
+	top:200px;
+	left:315px;
+}
+#vectormark3_2-3{
+	top:200px;
+	left:105px;
+}
+#vectormark3_2-4{
+	top:200px;
+	left:210px;
+}
+
+
+
+#vector3_input1_2-1{
+	top: 200px;
+    left: 25px;
+}
+#vector3_input1_2-2{
+	top: 200px;
+    left: 130px;
+}
+#vector3_input1_2-3{
+	top: 200px;
+    left: 235px;
+}
+
+
+
+#vectormark3_ans-1{
+	top:300px;
+	
+}
+#vectormark3_ans-2{
+	top:300px;
+	left:315px;
+}
+#vectormark3_ans-3{
+	top:300px;
+	left:105px;
+}
+#vectormark3_ans-4{
+	top:300px;
+	left:210px;
+}
+
+
+
+#vector3_input1_ans-1{
+	top: 300px;
+    left: 25px;
+}
+#vector3_input1_ans-2{
+	top: 300px;
+    left: 130px;
+}
+#vector3_input1_ans-3{
+	top: 300px;
+    left: 235px;
+}
+
+#vector3_dot{
+	display:none;
+}
+
+#vector3_crossans{
+	display:none;
+}
+
+#vector3_ans{
+	font-size: 60px;
+    top: 270px;
+    position: absolute;
+}
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+.equation_buttom{
+	
+	height: 35px;
+	width:100px;
+	text-align:center;
+	
+	float: left;
+	cursor: pointer;
+	
+	background-color:#00000017;
+}
+.equation_buttom:hover{
+	
+	background-color:#00000047;
+}
+
+
+.equation_input{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 92px;
+	font-size:30px;
+	width: 70px;
+	
+	position: absolute;
+    
+}
+
+#equation_buttom2{
+	position: absolute;
+    top: 0.5em;
+    left: 0.5em;
+	
+	
+}
+
+#equation_buttom3{
+	position: absolute;
+    top: 0.5em;
+    left: 7em;
+	
+	
+}
+
+.mathmark_equation{
+	font-size: 58px;
+	position:absolute;
+	
+}
+
+
+#equation2_input1-1{
+	top: 60px;
+    left: 25px;
+}
+#equation2_input1-2{
+	top: 60px;
+    left: 175px;
+}
+#equation2_input1-3{
+	top: 60px;
+    left: 330px;
+}
+
+
+#equationmark_x-1{
+	top: 60px;
+    left: 100px;
+}
+#equationmark_x-2{
+	top: 113px;
+    left: 100px;
+}
+
+#equationmark_y-1{
+	top: 60px;
+    left: 250px;
+}
+#equationmark_y-2{
+	top: 113px;
+    left: 250px;
+}
+
+#equation_cal{
+	top:175px;
+	left:30px;
+	position: absolute;
+	display:none;
+}
+
+#equation_ans{
+	font-size: 60px;
+    top: 235px;
+    left: 30px;
+    position: absolute;
+	display:none;
+}
+
+#equation2_content{
+	display:none;
+}
+#equation3_content{
+	display:none;
+}
+
+
+#equation3_input1-1{
+	top: 60px;
+    left: 25px;
+}
+#equation3_input1-2{
+	top: 60px;
+    left: 175px;
+}
+#equation3_input1-3{
+	top: 60px;
+    left: 330px;
+}
+#equation3_input1-4{
+	top: 60px;
+    left: 480px;
+}
+
+#equation3_input1-1>input{
+	margin-top: 20px;
+}
+#equation3_input1-2>input{
+	margin-top: 20px;
+}
+#equation3_input1-3>input{
+	margin-top: 20px;
+}
+#equation3_input1-4>input{
+	margin-top: 20px;
+}
+
+
+
+#equationmark2_x-1{
+	top: 80px;
+    left: 100px;
+}
+#equationmark2_x-2{
+	top: 138px;
+    left: 100px;
+}
+#equationmark2_x-3{
+	top: 195px;
+    left: 100px;
+}
+
+#equationmark2_y-1{
+	top: 80px;
+    left: 250px;
+}
+#equationmark2_y-2{
+	top: 138px;
+    left: 250px;
+}
+#equationmark2_y-3{
+	top: 195px;
+    left: 250px;
+}
+
+#equationmark2_z-1{
+	top: 80px;
+    left: 405px;
+}
+#equationmark2_z-2{
+	top: 138px;
+    left: 405px;
+}
+#equationmark2_z-3{
+	top: 195px;
+    left: 405px;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+
+
+.eq_input{
+	width: 60px;
+    position: absolute;
+}
+
+.eq_w{
+	position: absolute;
+    font-size: 40px;
+}
+
+
+#eq_x2{
+	left: 62px;
+}
+#eq_x{
+	left: 215px;
+    top: 13px;
+}
+#eq_{
+	left: 350px;
+    top: 13px;
+}
+
+#eq_1{
+	top: 50px;
+}
+#eq_2{
+	top: 50px;
+    left: 150px;
+}
+#eq_3{
+	top: 50px;
+    left: 280px;
+}
+
+#eq_cal{
+	top: 110px;
+    position: absolute;
+}
+
+#eq_ans{
+	top: 170px;
+    position: absolute;
+	font-size:50px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1000px)  {
+	#vector_buttom3{
+		position: absolute;
+		top: 0.5em;
+		left: 8em;
+		
+		
+	}
+	#equation_buttom3{
+		position: absolute;
+		top: 0.5em;
+		left: 8em;
+		
+		
+	}
+	
+	.mathmark_equation{
+		font-size: 38px;
+		position:absolute;
+		
+	}
+	
+	.equation_input{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 92px;
+		font-size:30px;
+		width: 40px;
+		
+		position: absolute;
+		
+	}
+	#equation2_input1-1{
+		top: 60px;
+		left: 0px;
+	}
+	#equation2_input1-2{
+		top: 60px;
+		left: 120px;
+	}
+	#equation2_input1-3{
+		top: 60px;
+		left: 225px;
+	}
+
+
+	#equationmark_x-1{
+		top: 60px;
+		left: 45px;
+	}
+	#equationmark_x-2{
+		top: 118px;
+		left: 45px;
+	}
+
+	#equationmark_y-1{
+		top: 60px;
+		left: 165px;
+	}
+	#equationmark_y-2{
+		top: 118px;
+		left: 165px;
+	}
+	
+	
+	
+	
+	#equation3_input1-1{
+		top: 60px;
+		left: 0px;
+	}
+	#equation3_input1-2{
+		top: 60px;
+		left: 95px;
+	}
+	#equation3_input1-3{
+		top: 60px;
+		left: 190px;
+	}
+	#equation3_input1-4{
+		top: 60px;
+		left: 285px;
+	}
+
+
+	#equationmark2_x-1{
+		top: 80px;
+		left: 45px;
+	}
+	#equationmark2_x-2{
+		top: 131px;
+		left: 45px;
+	}
+	#equationmark2_x-3{
+		top: 181px;
+		left: 45px;
+	}
+
+	#equationmark2_y-1{
+		top: 80px;
+		left: 140px;
+	}
+	#equationmark2_y-2{
+		top: 131px;
+		left: 140px;
+	}
+	#equationmark2_y-3{
+		top: 181px;
+		left: 140px;
+	}
+
+	#equationmark2_z-1{
+		top: 80px;
+		left: 235px;
+	}
+	#equationmark2_z-2{
+		top: 131px;
+		left: 235px;
+	}
+	#equationmark2_z-3{
+		top: 181px;
+		left: 235px;
+	}
+	
+	#equation_ans{
+		font-size: 30px;
+		top: 235px;
+		left: 30px;
+		position: absolute;
+		display:none;
+	}
+	
+	
+	
+	
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+	
+	
+	
+	
+		
+	.eq_input{
+		width: 45px;
+		position: absolute;
+	}
+
+	.eq_w{
+		position: absolute;
+		font-size: 35px;
+	}
+
+
+	#eq_x2{
+		left: 50px;
+		top: 5px;
+	}
+	#eq_x{
+		left: 175px;
+		top: 18px;
+	}
+	#eq_{
+		left: 280px;
+		top: 18px;
+	}
+
+	#eq_1{
+		top: 50px;
+	}
+	#eq_2{
+		top: 50px;
+		left: 125px;
+	}
+	#eq_3{
+		top: 50px;
+		left: 230px;
+	}
+	#eq_ans{
+		font-size:32px;
+	}
+
+}
